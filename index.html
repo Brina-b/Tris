@@ -1,0 +1,57 @@
+<!--lezione 4 aprile esercitazione JS
+creazione Tris, due giocatori, schermata di vincita -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title> TRIS </title>
+
+	<meta name="viewport" content="width=device-width" initiale-scale="1">
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<script type="text/javascript" src="javascript.js">   </script>
+</head>
+
+<body>
+
+
+	<font size="10" > Inizia il tuo gioco! </font>
+	<p><div id="winner"></div></p>
+	<table>
+		<tr>
+			<td><button  id="1" onclick="draw(this.id)"> </button></td>
+			<td><button  id="2" onclick="draw(this.id)"></td>
+			<td><button  id="3" onclick="draw(this.id)"></td>
+		</tr>
+
+		<br>
+
+		<tr>
+			<td><button  id="4" onclick="draw(this.id)"></td>
+			<td><button  id="5" onclick="draw(this.id)"></td>
+			<td><button  id="6" onclick="draw(this.id)"></td>
+		</tr>
+
+		<br>
+
+		<tr>
+			<td><button id="7" onclick="draw(this.id)"></td>
+			<td><button id="8" onclick="draw(this.id)"> </td>
+			<td><button id="9" onclick="draw(this.id)"> </td>
+		</tr>
+
+	</table>
+
+	<button id="start" class="start_button"  onclick="restart()">Start the game! </button>
+
+	<input type="button" value = "Reset the game!"  onclick="history.go(0)" />
+
+	<div id="punteggio"> 
+		<p> </p>
+		
+		<p></p>
+	</div>
+</body>
+</html>	

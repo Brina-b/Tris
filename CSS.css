@@ -1,0 +1,123 @@
+body
+{
+	text-align: center;
+	font-weight: bold;
+	color: #f08080;
+	padding-top: 10px;
+	margin:0;
+}
+
+table
+{
+	margin: auto;
+	padding: 0;
+	border-spacing: 0px;
+	
+}
+
+td
+{
+	border: 2px  solid #f08080;
+	width: 100px;
+	height: 100px;
+	font-size: 1,6em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+/*creo la griglia omettendo i bordi laterali*/
+
+tr:first-child td
+{
+	border-top: none;
+}
+
+td:first-child
+{
+	border-left:none; 
+}
+
+tr:last-child td
+
+{
+	border-bottom: none;
+}
+
+td:last-child 
+{
+	border-right: none;
+}
+
+button
+{
+	width: 100px;
+	height: 100px;
+	margin-top: auto;
+	vertical-align:top;
+	font-size: xx-large;
+	border: none;
+	background-color:#faebd7;
+	color: black; 
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 1.5px 3px rgba(20,0,0,0.5); 
+	/*0=spostamento ombra orizzontale, 1=spostamento su asse verticale, 3=valore di sfocatura*/ 
+}
+
+button:hover
+{
+	background-color:#ffdab9;
+}
+
+.start_button
+{
+	margin-top: 50px;
+	width: 300px;
+	height: 50px;
+	font-size: large;
+	position: relative;
+	vertical-align: bottom;
+	border: 2px solid #f08080;
+	color: #f08080;
+}	
+
+input
+{
+	position: absolute;
+	right: 100px;
+	top: 200px;
+	margin-top: auto;
+	width: 150px;
+	height: 50px;
+	font-size: large;
+	border: 2px solid #f08080;
+	border-radius: 30px;
+	box-shadow: 0 1.5px 3px rgba(20,0,0,0.5); 
+	background-color:#faebd7;
+	color: #f08080;
+}
+input:hover
+{
+	background-color:#ffdab9;
+}
+
+#punteggio
+{
+	border: 2px solid #f08080;
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	position: absolute;
+	right: 100px;
+	top: 125px;
+	background: #faebd7;
+	margin: auto;
+	font-size: large;
+	text-align: left;
+	color: #f08080;
+}
+
+
+
+
+
